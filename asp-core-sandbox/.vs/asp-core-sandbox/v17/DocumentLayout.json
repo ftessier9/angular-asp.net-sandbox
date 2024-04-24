@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E100DE1E-3F55-4B96-99D1-DB2D77537763}|asp-core-sandbox\\asp-core-sandbox.csproj|c:\\users\\felix.tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E100DE1E-3F55-4B96-99D1-DB2D77537763}|asp-core-sandbox\\asp-core-sandbox.csproj|solutionrelative:asp-core-sandbox\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E100DE1E-3F55-4B96-99D1-DB2D77537763}|asp-core-sandbox\\asp-core-sandbox.csproj|c:\\users\\felix.tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E100DE1E-3F55-4B96-99D1-DB2D77537763}|asp-core-sandbox\\asp-core-sandbox.csproj|solutionrelative:asp-core-sandbox\\models\\userinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E100DE1E-3F55-4B96-99D1-DB2D77537763}|asp-core-sandbox\\asp-core-sandbox.csproj|c:\\users\\felix.tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E100DE1E-3F55-4B96-99D1-DB2D77537763}|asp-core-sandbox\\asp-core-sandbox.csproj|solutionrelative:asp-core-sandbox\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\Models\\UserInfo.cs",
+              "RelativeDocumentMoniker": "asp-core-sandbox\\Models\\UserInfo.cs",
+              "ToolTip": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\Models\\UserInfo.cs",
+              "RelativeToolTip": "asp-core-sandbox\\Models\\UserInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T15:03:45.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "asp-core-sandbox\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\appsettings.Development.json",
+              "RelativeToolTip": "asp-core-sandbox\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-24T15:02:38.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "asp-core-sandbox\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Felix.Tessier\\source\\workspaces\\angular-asp-sandbox\\asp-core-sandbox\\asp-core-sandbox\\Services\\UserService.cs",
+              "RelativeToolTip": "asp-core-sandbox\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T14:47:44.913Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
