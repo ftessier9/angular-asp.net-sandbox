@@ -1,11 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 
-.form-group {
+.container__inputs {
     display: grid;
     grid-template-columns: 55px 1fr;
     gap: 5px;
     align-items: center;
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 .form-label {
@@ -15,3 +15,6 @@
 .form-input {
     width: 100%;
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,10 +1,15 @@
-.div-user-info {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* .div-user-info .button-container {
-    display: flex;
-    justify-content: center;
-} */
+.container__form {
+    margin-bottom: 16px;
+}
+
+button {
+    font-size: 16px; 
+    border-radius: 32px; 
+    margin-bottom: 8px;
+}

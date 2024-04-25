@@ -1,14 +1,12 @@
-<div class="div-user-info">
-    <div>
-        <h2>Get user ID:</h2>
+<div class="container">
+    <div style="margin-bottom: 10px;">
+        <h2>Get User Info:</h2>
         <form [formGroup]="applyForm" (submit)="getUserInfo()">
-            <div class="form-group">
+            <div class="container__inputs">
                 <label for="user-id" class="form-label">User ID</label>
                 <input id="user-id" type="text" formControlName="user-id" class="form-input">                
             </div>
-            <div class="button-container">
-                <button type="submit" class="primary">Submit</button>
-            </div>
+            <button mat-stroked-button type="submit">Submit</button>
         </form>
     </div>
     <div *ngIf="userInfo">
@@ -16,5 +14,6 @@
         <p>Age: {{ userInfo.age }}
         <p>Job: {{ userInfo.job }}</p>
     </div>
+    <p *ngIf="!userFound">No user found.</p>
 </div>
 

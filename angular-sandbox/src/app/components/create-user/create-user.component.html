@@ -1,28 +1,29 @@
-<div class="create-user-div">
-    <div>
+<div class="container">
+    <div style="margin-bottom: 10px;">
         <h2>Create user:</h2>
         <div>
             <form [formGroup]="applyForm" (submit)="createUser()" class="form">
-                <div class="form-group">
-                    <label for="name" class="form-label">Name</label>
-                    <input id="name" type="text" formControlName="name" class="form-input">                    
+                <div class="container__form">
+                    <div class="container__inputs">
+                        <label for="name" class="form-label">Name</label>
+                        <input id="name" type="text" formControlName="name" class="form-input">                    
+                    </div>
+                    <div class="container__inputs">
+                        <label for="age" class="form-label">Age</label>
+                        <input id="age" type="text" formControlName="age" class="form-input">                    
+                    </div>
+                    <div class="container__inputs">
+                        <label for="job" class="form-label">Job</label>
+                        <input id="job" type="text" formControlName="job" class="form-input">                    
+                    </div>                    
                 </div>
-                <div class="form-group">
-                    <label for="age" class="form-label">Age</label>
-                    <input id="age" type="text" formControlName="age" class="form-input">                    
-                </div>
-                <div class="form-group">
-                    <label for="job" class="form-label">Job</label>
-                    <input id="job" type="text" formControlName="job" class="form-input">                    
-                </div>
-                <div class="button-container">
-                    <button type="submit" class="primary">Submit</button>
-                </div>
+                <button mat-stroked-button type="submit">Submit</button>
             </form>            
         </div>
     </div>
     <h3 *ngIf="userInfo" style="color: green;">Resource successfully created!</h3>
     <div *ngIf="userInfo">
+        <p>Id: {{ userInfo.id }}</p>
         <p>Name: {{ userInfo.name }}</p>
         <p>Age: {{ userInfo.age }}
         <p>Job: {{ userInfo.job }}</p>
